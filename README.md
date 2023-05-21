@@ -22,6 +22,7 @@ Hypothesis: Having more # of stops results in having a higher commute time
 
 We represented a stop by counting out loud for 3 seconds before / after every bump depending on the # of stops
 
+```
 Lap Time   # of stops    
 --------------------------------
 17.80         0
@@ -36,6 +37,7 @@ Lap Time   # of stops
 26:00         3
 25:89         3
 26:03         3
+```
 
 Potential flaws in data:
 - The 3 seconds counted out loud may not be exactly 3 seconds
