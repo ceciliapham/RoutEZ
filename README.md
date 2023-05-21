@@ -44,6 +44,9 @@ Potential flaws in data:
 - The skill of the driver (controller)
 - The battery level of the toy car throughout the experiment
 
+
+![data](https://github.com/ceciliapham/crime-mapper/assets/74875051/6db8005f-57d2-454f-b310-6735db3d41fd)
+
 Even with all of these flaws the line of best fit seems to suggest that there's a relation between the commute taking longer and with the # of stops
 
 This confirmed our hypothesis and gave us the go to make a system to implement an algorithm for the traffic lights to follow in davis to reduce the number of stops to decrease commute time and commuting cost(s)
