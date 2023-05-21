@@ -8,7 +8,7 @@ In our research we discovered an average commuter to work spends around 4.7 mont
 
 Turns out the city of Sydney in Australia had already done something about it by implementing the system SCATS (Sydney Coordinated Adaptive Traffic System)
 
-According to the government SCATS has resulted in
+According to the government SCATS had resulted in
 - 28% Reduction in travel times
 - 25% Reduction in stops
 - 12% Reduction in commuter costs
@@ -47,7 +47,7 @@ Potential flaws in data:
 
 ![data](https://github.com/ceciliapham/crime-mapper/assets/74875051/6db8005f-57d2-454f-b310-6735db3d41fd)
 
-Even with all of these flaws the line of best fit seems to suggest that there's a relation between the commute taking longer and with the # of stops
+Even with all of these flaws the line of best fit seems to suggest that there's a relation between the commute taking longer with the increasing # of stops
 
 This confirmed our hypothesis and gave us the go to make a system to implement an algorithm for the traffic lights to follow in davis to reduce the number of stops to decrease commute time and commuting cost(s)
 
@@ -163,11 +163,11 @@ My boss doesn’t really care what time I get in for work but I want to get into
 ```
 We used both Co:here and ChatGPTs model although we found that ChatGPT model was better for small prompts, we found that if we were willing the length to engineer a good prompt Cohere gave us more freedom.
 
-First paragraph is setting the enviornment, since Cohere's model uses Natural Language we were very firm with our conditions as we're analyzing data and we do NOT need the prompt to get all creative and generate a random answer.
+First paragraph is setting the enviornment, since Cohere's model uses Natural Language we were very firm with our conditions as we're analyzing data and we do NOT need the prompt to get creative and generate an answer that is not based on the factual information that we provided.
 
 2nd paragraph gives the model info on how to interpret the data
 
-3rd paragraph is where the dataset is
+3rd paragraph is where the dataset is inserted
 
 4th paragraph is what we want from the model in return after analyzing
 
